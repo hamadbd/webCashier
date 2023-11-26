@@ -1,6 +1,29 @@
 # WebCashier
 
-WebCashier is a Django-based web application for managing cashier transactions and products.
+# Project Name
+
+## Overview
+This project is a RESTful API built using Django and Django Rest Framework, allowing users to interact with the system through endpoints. It includes user authentication, product management, and transaction handling. The code has been tested and successfully executes.
+
+## Setup
+To run this project, ensure you have Django and Django Rest Framework installed. If not, use the following pip commands:
+
+```bash
+pip install django
+pip install djangorestframework
+```
+
+
+Make sure to update the `settings.py` file according to your local environment configurations, such as database settings or any additional installed apps.
+
+## Usage
+To execute the project, create a virtual environment and install the required packages. Then, run the Django development server and use tools like Postman or Python requests to interact with the available APIs.
+
+## Structure
+The project contains models for CustomUser, Product, Transaction, along with corresponding serializers and views for API endpoints.
+
+
+
 
 ## Prerequisites
 
