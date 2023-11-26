@@ -101,10 +101,10 @@ WSGI_APPLICATION = 'WebCashier.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'idx',
-        'USER': 'powerbi',
-        'PASSWORD': 'P0w3rB!',
-        'HOST': '10.0.0.21',  # Or your database host
+        'NAME': 'idex',
+        'USER': 'TEST',
+        'PASSWORD': 'XXX',
+        'HOST': '10.0.0.XX',  # Or your database host
         'PORT': '3306',       # Or your database port
     }
 }
